@@ -27,3 +27,4 @@ jobs:
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_PURPLE_HORSESHOE_93B2918F1C }} # Change this to your repository secret name
+
